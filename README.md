@@ -20,4 +20,9 @@
 
 ![image](https://github.com/DanilaDenis/RPA_Project/assets/92435488/c27abfb1-31e7-4639-894e-e30cc38d90fc)
 
+4. Orchestrator
+
+![image](https://github.com/DanilaDenis/RPA_Project/assets/92435488/e2f9423e-ce0a-4d9e-b172-74a9ff3d53e5)
+
+
   
