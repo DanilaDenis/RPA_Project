@@ -1,10 +1,10 @@
 # Assesment
 
 ## Content
-1. [Layerd Architecture](https://github.com/DanilaDenis/RPA_Project/README.md#layerd-architecture)
-2. [Coded Activities & Custom Activities](https://github.com/DanilaDenis/RPA_Project/README.md#layerd-architecture)
-3. [Business Exception Handling](https://github.com/DanilaDenis/RPA_Project/README.md#layerd-architecture)
-4. [Orchestrator](https://github.com/DanilaDenis/RPA_Project/README.md#layerd-architecture)
+1. [Layerd Architecture](https://github.com/DanilaDenis/RPA_Project/blob/master/README.md#layerd-architecture)
+2. [Coded Activities & Custom Activities](https://github.com/DanilaDenis/RPA_Project/blob/master/README.md#coded-activities--custom-activities)
+3. [Business Exception Handling](https://github.com/DanilaDenis/RPA_Project/blob/master/README.md#business-exception-handling-2-exceptions)
+4. [Orchestrator](https://github.com/DanilaDenis/RPA_Project/blob/master/README.md#orchestrator)
 
 ### Layerd Architecture
 
