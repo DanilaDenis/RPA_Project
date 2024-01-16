@@ -1,0 +1,114 @@
+﻿{
+  "Metadata": {
+    "Id": "638c03ac-d498-4500-a05b-f9bde1d1eb01",
+    "Kind": "FormIo"
+  },
+  "DesignProperties": {
+    "Title": "InputForm",
+    "Theme": "Default",
+    "ShowInTaskbar": true,
+    "ShowMargin": true,
+    "CustomStyle": ""
+  },
+  "Data": {
+    "components": [
+      {
+        "label": "Your Email",
+        "labelPosition": "left-right",
+        "tableView": true,
+        "key": "emailOfTheEmployee",
+        "type": "email",
+        "labelWidth": 20,
+        "input": true
+      },
+      {
+        "label": "Group Email",
+        "labelPosition": "left-right",
+        "tableView": true,
+        "defaultValue": "RPA-mailbox@ubbcluj.onmicrosoft.com",
+        "key": "emailOfTheGroup",
+        "type": "email",
+        "labelWidth": 20,
+        "input": true
+      },
+      {
+        "label": "Title",
+        "labelPosition": "left-right",
+        "tooltip": "The title of the absence",
+        "tableView": true,
+        "key": "title",
+        "type": "textfield",
+        "labelWidth": 20,
+        "input": true
+      },
+      {
+        "label": "Description",
+        "labelPosition": "left-right",
+        "tooltip": "Description of the absence, such as motives, ...",
+        "tableView": true,
+        "key": "description",
+        "type": "textarea",
+        "labelWidth": 20,
+        "input": true
+      },
+      {
+        "label": "Start Date",
+        "hideInputLabels": false,
+        "inputsLabelPosition": "left",
+        "tableView": false,
+        "fields": {
+          "day": {
+            "hide": false,
+            "required": true
+          },
+          "month": {
+            "hide": false,
+            "required": true
+          },
+          "year": {
+            "hide": false,
+            "required": true
+          }
+        },
+        "key": "startDate",
+        "type": "day",
+        "input": true,
+        "overlay": {
+          "left": "10%"
+        },
+        "keyModified": true
+      },
+      {
+        "label": "End Date",
+        "hideInputLabels": false,
+        "inputsLabelPosition": "left",
+        "tableView": false,
+        "fields": {
+          "day": {
+            "hide": false
+          },
+          "month": {
+            "hide": false
+          },
+          "year": {
+            "hide": false
+          }
+        },
+        "key": "endDate",
+        "type": "day",
+        "input": true
+      },
+      {
+        "label": "Submit",
+        "showValidations": false,
+        "block": true,
+        "disableOnInvalid": true,
+        "tableView": false,
+        "key": "submit",
+        "type": "button",
+        "input": true,
+        "saveOnEnter": false
+      }
+    ]
+  }
+}

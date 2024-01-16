@@ -1,0 +1,79 @@
+{
+  "name": "RpaProj",
+  "projectId": "fb7c2fb4-18c1-4158-b76c-e098dd2b8509",
+  "description": "Blank Process",
+  "main": "Main.xaml",
+  "dependencies": {
+    "ExtractCalendar": "[1.0.1]",
+    "UiPath.Excel.Activities": "[2.22.1-preview]",
+    "UiPath.Form.Activities": "[23.10.5]",
+    "UiPath.Mail.Activities": "[1.20.3]",
+    "UiPath.MicrosoftOffice365.Activities": "[2.4.3]",
+    "UiPath.System.Activities": "[23.10.3]",
+    "UiPath.Testing.Activities": "[23.10.0-preview]",
+    "UiPath.UIAutomation.Activities": "[23.10.0-preview]",
+    "UiPath.WebAPI.Activities": "[1.18.0]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "23.10.0.0",
+  "projectVersion": "1.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "netFrameworkLazyLoading": false,
+    "isPausable": true,
+    "isAttended": false,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "workflowSerialization": "DataContract",
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false,
+    "mustRestoreAllDependencies": true,
+    "pipType": "ChildSession"
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [],
+    "modernBehavior": false,
+    "saveToCloud": false
+  },
+  "expressionLanguage": "CSharp",
+  "entryPoints": [
+    {
+      "filePath": "ExtractFormData.xaml",
+      "uniqueId": "5fd4f6fd-2b1b-4fe8-8605-e5234c8b425e",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "CalendarLeavesManager.xaml",
+      "uniqueId": "56c17d85-b9fd-4e8f-9a13-3b71b51b4df4",
+      "input": [],
+      "output": []
+    },
+    {
+      "filePath": "Main.xaml",
+      "uniqueId": "e9dc5c61-ad2b-4748-84c0-720837e75c10",
+      "input": [],
+      "output": []
+    }
+  ],
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {},
+  "targetFramework": "Windows"
+}
