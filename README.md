@@ -12,11 +12,11 @@
 
 3. Business Exception Handling: 2 exceptions
 
-- one for checking if the config file exists (ArgumentException)
+- one for checking if the absence request is valid (BusinessRuleException)
 
 ![image](https://github.com/DanilaDenis/RPA_Project/assets/92435488/d8459a9b-8a09-4b20-82f1-0ca777d1e326)
 
-- one for checking if the absence request is valid (BusinessRuleException)
+- one for checking if the config file exists (ArgumentException)
 
 ![image](https://github.com/DanilaDenis/RPA_Project/assets/92435488/c27abfb1-31e7-4639-894e-e30cc38d90fc)
 
